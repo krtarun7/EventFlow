@@ -1,0 +1,7 @@
+{
+  "source": ["eventflow.orders"],
+  "detail-type": ["OrderPlaced"],
+  "detail": {
+    "amount": [{ "numeric": [">=", 100] }]
+  }
+}
